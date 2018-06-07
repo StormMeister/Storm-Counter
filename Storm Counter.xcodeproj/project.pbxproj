@@ -15,6 +15,7 @@
 		63C6F30520C790EF00C1F5FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C6F30320C790EF00C1F5FB /* LaunchScreen.storyboard */; };
 		63C6F31020C790F000C1F5FB /* Storm_CounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C6F30F20C790F000C1F5FB /* Storm_CounterTests.swift */; };
 		63C6F31B20C790F000C1F5FB /* Storm_CounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C6F31A20C790F000C1F5FB /* Storm_CounterUITests.swift */; };
+		63C6F32920C8C77F00C1F5FB /* AnimateNextStepOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C6F32820C8C77F00C1F5FB /* AnimateNextStepOperation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		63C6F31620C790F000C1F5FB /* Storm CounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Storm CounterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63C6F31A20C790F000C1F5FB /* Storm_CounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storm_CounterUITests.swift; sourceTree = "<group>"; };
 		63C6F31C20C790F000C1F5FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63C6F32820C8C77F00C1F5FB /* AnimateNextStepOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateNextStepOperation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				63C6F30320C790EF00C1F5FB /* LaunchScreen.storyboard */,
 				63C6F30620C790EF00C1F5FB /* Info.plist */,
 				63C6F2FE20C790EB00C1F5FB /* Storm_Counter.xcdatamodeld */,
+				63C6F32820C8C77F00C1F5FB /* AnimateNextStepOperation.swift */,
 			);
 			path = "Storm Counter";
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63C6F32920C8C77F00C1F5FB /* AnimateNextStepOperation.swift in Sources */,
 				63C6F30020C790EB00C1F5FB /* Storm_Counter.xcdatamodeld in Sources */,
 				63C6F2FA20C790EB00C1F5FB /* ViewController.swift in Sources */,
 				63C6F2F820C790EB00C1F5FB /* AppDelegate.swift in Sources */,

@@ -11,6 +11,10 @@ import UIKit
 class ViewController: UIViewController {
 
     let shapeLayer = CAShapeLayer()
+    let numberOfSteps = CGFloat(10)
+    var step = CGFloat(0)
+    let queue = OperationQueue()
+    var lastAnimation: AnimateNextStepOperation?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,19 +41,19 @@ class ViewController: UIViewController {
     }
 
     @objc private func handleTap() {
-        let basicAnimation = CABasicAnimation(keyPath: "strokeEnd")
-        basicAnimation.toValue = 1
-        basicAnimation.duration = 2
-        basicAnimation.fillMode = kCAFillModeForwards
-        basicAnimation.isRemovedOnCompletion = false
-        shapeLayer.add(basicAnimation, forKey: "fillLoadingBar")
+        guard step.isLess(than: numberOfSteps) else {return}
+        let animation = AnimateNextStepOperation(step: self.step, of: self.numberOfSteps, shapeLayer: self.shapeLayer)
+        self.step += 1
+        if let lastAnimation = self.lastAnimation {
+            animation.addDependency(lastAnimation)
+        }
+        self.lastAnimation = animation
+        self.queue.addOperation(animation)
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
 }
 
