@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		63C6F2F820C790EB00C1F5FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C6F2F720C790EB00C1F5FB /* AppDelegate.swift */; };
-		63C6F2FA20C790EB00C1F5FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C6F2F920C790EB00C1F5FB /* ViewController.swift */; };
+		63C6F2FA20C790EB00C1F5FB /* CircularLoaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C6F2F920C790EB00C1F5FB /* CircularLoaderViewController.swift */; };
 		63C6F2FD20C790EB00C1F5FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C6F2FB20C790EB00C1F5FB /* Main.storyboard */; };
 		63C6F30020C790EB00C1F5FB /* Storm_Counter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 63C6F2FE20C790EB00C1F5FB /* Storm_Counter.xcdatamodeld */; };
 		63C6F30220C790EF00C1F5FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63C6F30120C790EF00C1F5FB /* Assets.xcassets */; };
@@ -17,6 +17,8 @@
 		63C6F31B20C790F000C1F5FB /* Storm_CounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C6F31A20C790F000C1F5FB /* Storm_CounterUITests.swift */; };
 		63C6F32920C8C77F00C1F5FB /* AnimateNextStepOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C6F32820C8C77F00C1F5FB /* AnimateNextStepOperation.swift */; };
 		63C6F36E20CB926200C1F5FB /* Int+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C6F36D20CB926200C1F5FB /* Int+Utilities.swift */; };
+		63C6F37420D1FF0100C1F5FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C6F37320D1FF0100C1F5FB /* ViewController.swift */; };
+		63C6F37620D362BD00C1F5FB /* BottomControlsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C6F37520D362BD00C1F5FB /* BottomControlsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,7 @@
 /* Begin PBXFileReference section */
 		63C6F2F420C790EB00C1F5FB /* Storm Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Storm Counter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63C6F2F720C790EB00C1F5FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		63C6F2F920C790EB00C1F5FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		63C6F2F920C790EB00C1F5FB /* CircularLoaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularLoaderViewController.swift; sourceTree = "<group>"; };
 		63C6F2FC20C790EB00C1F5FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		63C6F2FF20C790EB00C1F5FB /* Storm_Counter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Storm_Counter.xcdatamodel; sourceTree = "<group>"; };
 		63C6F30120C790EF00C1F5FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +55,8 @@
 		63C6F31C20C790F000C1F5FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63C6F32820C8C77F00C1F5FB /* AnimateNextStepOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateNextStepOperation.swift; sourceTree = "<group>"; };
 		63C6F36D20CB926200C1F5FB /* Int+Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Utilities.swift"; sourceTree = "<group>"; };
+		63C6F37320D1FF0100C1F5FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		63C6F37520D362BD00C1F5FB /* BottomControlsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomControlsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				63C6F2F720C790EB00C1F5FB /* AppDelegate.swift */,
-				63C6F2F920C790EB00C1F5FB /* ViewController.swift */,
+				63C6F2F920C790EB00C1F5FB /* CircularLoaderViewController.swift */,
 				63C6F2FB20C790EB00C1F5FB /* Main.storyboard */,
 				63C6F30120C790EF00C1F5FB /* Assets.xcassets */,
 				63C6F30320C790EF00C1F5FB /* LaunchScreen.storyboard */,
@@ -112,6 +116,8 @@
 				63C6F2FE20C790EB00C1F5FB /* Storm_Counter.xcdatamodeld */,
 				63C6F32820C8C77F00C1F5FB /* AnimateNextStepOperation.swift */,
 				63C6F36D20CB926200C1F5FB /* Int+Utilities.swift */,
+				63C6F37320D1FF0100C1F5FB /* ViewController.swift */,
+				63C6F37520D362BD00C1F5FB /* BottomControlsViewController.swift */,
 			);
 			path = "Storm Counter";
 			sourceTree = "<group>";
@@ -268,7 +274,9 @@
 				63C6F32920C8C77F00C1F5FB /* AnimateNextStepOperation.swift in Sources */,
 				63C6F30020C790EB00C1F5FB /* Storm_Counter.xcdatamodeld in Sources */,
 				63C6F36E20CB926200C1F5FB /* Int+Utilities.swift in Sources */,
-				63C6F2FA20C790EB00C1F5FB /* ViewController.swift in Sources */,
+				63C6F37620D362BD00C1F5FB /* BottomControlsViewController.swift in Sources */,
+				63C6F37420D1FF0100C1F5FB /* ViewController.swift in Sources */,
+				63C6F2FA20C790EB00C1F5FB /* CircularLoaderViewController.swift in Sources */,
 				63C6F2F820C790EB00C1F5FB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -452,7 +460,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Godohaldo.Perez.Storm-Counter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -470,7 +478,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Godohaldo.Perez.Storm-Counter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

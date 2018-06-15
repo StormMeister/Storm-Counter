@@ -11,8 +11,11 @@ import Foundation
 extension Int {
     private var romanDigits: [String] { return ["I", "V", "X", "L", "C", "D", "M"] }
     
+    
+    ///Return the roman numeral that corresponds to the number modulus 4000
     var romanNumeral: String {
-        let stringNumber = String(self % 1000)
+        guard self > 0 else { return "N" }
+        let stringNumber = String(self % 4000)
         let digitCount = stringNumber.count
         return stringNumber
             .enumerated()

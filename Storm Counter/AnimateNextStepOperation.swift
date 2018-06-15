@@ -56,7 +56,7 @@ class AnimateNextStepOperation: Operation {
         let basicAnimation = CABasicAnimation(keyPath: "strokeEnd")
         basicAnimation.fromValue = step/numberOfSteps
         basicAnimation.toValue = (step + 1)/numberOfSteps
-        basicAnimation.duration = 2
+        basicAnimation.duration = 0.5
         basicAnimation.fillMode = kCAFillModeForwards
         basicAnimation.isRemovedOnCompletion = false
         basicAnimation.delegate = self
